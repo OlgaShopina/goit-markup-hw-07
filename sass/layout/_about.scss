@@ -1,0 +1,47 @@
+.about__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+
+.about__description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.about {
+  background: var(--white-color);
+  padding-top: var(--section-pt);
+}
+
+.about__list {
+  display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.about__item {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 4 - 30px);
+}
+
+.about__thumb {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.about__icon {
+  width: 66px;
+  height: 70px;
+}
